@@ -1,0 +1,33 @@
+- Przygotowanie grafiki:
+ Plik ryba1.jpg, wypakowany z archiwum, należy przeskalować z zachowaniem proporcji tak, aby jego
+szerokość wynosiła dokładnie 550 px
+
+- Cechy witryny:
+ Składa się ze strony o nazwie wedkuj.php
+ Zastosowany właściwy standard kodowania polskich znaków
+ Tytuł strony widoczny na karcie przeglądarki: „Wędkujemy”
+ Arkusz stylów w pliku o nazwie styl_1.css prawidłowo połączony z kodem strony
+ Podział strony na bloki: na górze blok banera, poniżej dwa bloki: lewy i prawy, na dole blok stopki.
+Podział zrealizowany za pomocą znaczników sekcji tak, aby po uruchomieniu w przeglądarce wygląd
+układu bloków był zgodny z obrazem 2
+
+ Zawartość banera: nagłówek pierwszego stopnia o treści „Portal dla wędkarzy”
+
+ Zawartość bloku lewego:
+ Nagłówek drugiego stopnia o treści: „Ryby drapieżne naszych wód”
+ Lista punktowa (nieuporządkowana) wypełniona przez skrypt
+ Zawartość bloku prawego:
+ Obraz ryba1.jpg z tekstem alternatywnym o treści: „Sum”
+ W kolejnej linii odnośnik do pliku kwerendy.txt z treścią: „Pobierz kwerendy”
+ Zawartość stopki: akapit (paragraf) o treści: „Stronę wykonał: ”, dalej wstawiony numer PESEL
+zdającego
+
+- Styl CSS witryny internetowej
+Cechy formatowania CSS, działające na stronie:
+ Domyślne dla całej strony: krój czcionki Verdana
+ Wspólne dla bloku banera i stopki: kolor tła #4682B4, biały kolor czcionki, marginesy wewnętrzne
+20 px, rozmiar czcionki 120%, wyrównanie tekstu do środka
+ Dla bloku lewego: kolor tła #40E0D0, szerokość 40%, wysokość 500 px
+ Dla bloku prawego: kolor tła #40E0D0, szerokość 60%, wysokość 500 px
+ Dla znacznika obrazu: marginesy wewnętrzne 5 px, zewnętrzne 10 px, obramowanie 1 px, linią ciągłą
+o kolorze #000080

@@ -1,0 +1,34 @@
+ - Przygotowanie grafiki:
+ Plik ryba2.jpg, wypakowany z archiwum, należy przeskalować z zachowaniem proporcji tak, aby jego
+szerokość wynosiła dokładnie 500 px
+
+ - Cechy witryny:
+ składa się ze strony o nazwie wedkowanie.php
+ zastosowany właściwy standard kodowania polskich znaków
+ tytuł strony widoczny na karcie przeglądarki: „Klub wędkowania”
+ arkusz stylów w pliku o nazwie styl2.css prawidłowo połączony z kodem strony
+ podział strony na bloki: na górze blok banera, poniżej dwa bloki: lewy i prawy, na dole blok stopki.
+Podział zrealizowany za pomocą znaczników sekcji tak, aby po uruchomieniu w przeglądarce wygląd
+układu bloków był zgodny z obrazem 2
+ zawartość bloku banera: nagłówek drugiego stopnia o treści „Wędkuj z nami!”
+ zawartość bloku lewego: obraz ryba2.jpg z tekstem alternatywnym o treści: „Szczupak”
+ zawartość bloku prawego:
+ nagłówek trzeciego stopnia o treści: „Ryby spokojnego żeru (białe)”
+
+ w kolejnej linii lista numerowana (uporządkowana) zawierająca dwa odnośniki
+ https://wedkuje.pl/ o treści „Odwiedź także”; odnośnik otwiera się w osobnej karcie lub
+w osobnym oknie
+ http://www.pzw.org.pl/ o treści „Polski Związek Wędkarski”; odnośnik otwiera się w osobnym
+oknie
+ Zawartość bloku stopki: akapit (paragraf) o treści: „Stronę wykonał: PESEL”, gdzie PESEL to Twój
+numer PESEL
+Styl CSS witryny internetowej
+
+ - Cechy formatowania CSS, działające na stronie:
+ domyślne dla całej strony: krój czcionki Garamond
+ wspólne dla bloku banera i bloku stopki: kolor tła #3CB371, biały kolor czcionki, marginesy
+wewnętrzne 10 px, rozmiar czcionki 130%, wyrównanie tekstu do środka
+ dla bloku lewego: kolor tła #FAEBD7, szerokość 55%, wysokość 450 px
+ dla bloku prawego: kolor tła # FAEBD7, szerokość 45%, wysokość 450 px
+ dla znacznika obrazu: marginesy wewnętrzne 3 px, zewnętrzne 15 px, obramowanie 2 px, linią
+kreskowaną o kolorze #3CB371

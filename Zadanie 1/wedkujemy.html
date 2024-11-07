@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styl_1.css">
+    <title>Wędkujemy</title>
+</head>
+
+<body>
+    <div class="top endings">
+        <h1>Portal dla wędkarzy</h1>
+    </div>
+
+    <div class="left sides">
+        <h2>Ryby drapieżne naszych wód</h2>
+        <ul id="fish-list">
+            <!-- karp -->
+        </ul>
+    </div>
+
+    <div class="right sides">
+        <img src="./src/ryba1.png" alt="Sum">
+        <a href="./Polecenie.txt">Pobierz kwerendy</a>
+    </div>
+
+    <div class="footer endings">
+        <p>Stronę wykonał: 00000000000</p>
+    </div>
+
+    <script>
+        const fishList = [
+            "Szczupak, występowanie: stawy, rzeki",
+            "Sandacz, występowanie: stawy, jeziora, rzeki",
+            "Okoń, występowanie: rzeki",
+            "Sum, występowanie: jeziora, rzeki",
+            "Dorsz, występowanie: morza, oceany"
+        ];
+
+        const ul = document.getElementById('fish-list');
+        fishList.forEach(fish => {
+            const li = document.createElement('li');
+            li.textContent = fish;
+            ul.appendChild(li);
+        });
+    </script>
+</body>
+
+</html>
