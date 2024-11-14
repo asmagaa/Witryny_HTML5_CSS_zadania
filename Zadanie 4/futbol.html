@@ -35,6 +35,32 @@ Zawartość bloku prawego:
     <title>Rozgrywki futbolowe</title>
 </head>
 <body>
-    
+    <section id="baner">
+        <h2>Światowe rozgrywki piłkarskie</h2>
+        <img src="./src/obraz1.png" alt="boisko">
+    </section>
+    <section id="mecze">
+        <ul>
+            <li>1. Polska - Niemcy 5:1</li>
+            <li>2. Polska - Francja 5:1</li>
+            <li>3. Polska - Hiszpania 5:3</li>
+        </ul>
+    </section>
+    <section id="glowny">
+        <h2>Reprezentacja Polski</h2>
+    </section>
+    <section id="lewy">
+        <p>Podaj pozycję zawodników (1-bramkarze, 2-obrońcy, 3-pomocnicy, 4-napastnicy):</p>
+        <form method="POST" action="futbol.php">
+            <input type="number" name="pozycja" required>
+            <button type="submit">Sprawdź</button>
+        </form>
+        <ul>
+        </ul>
+    </section>
+    <section id="prawy">
+        <img src="./src/zad4.png" alt="piłkarz">
+        <p>Autor: <span id="pesel">[PESEL]</span></p>
+    </section>
 </body>
 </html>
