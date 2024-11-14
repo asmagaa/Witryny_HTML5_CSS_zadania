@@ -21,87 +21,63 @@ zawierający:
 
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styl6.css">
     <title>Organizer</title>
+    <link rel="stylesheet" href="./css/styl6.css">
 </head>
-
 <body>
-    <header class="dwa">
-        <h2>MÓJ ORGANIZER</h2>
-        <div class="input"></div>
+    <header>
+        <section class="banner">
+            <h2>MÓJ ORGANIZER</h2>
+        </section>
+        <section class="banner">
+            <form action="organizer.php" method="POST">
+                <label for="event">Wpis wydarzenia: </label>
+                <input type="text" id="event" name="event">
+                <button type="submit">ZAPISZ</button>
+            </form>
+        </section>
+        <section class="banner">
+            <img src="./src/logo2.png" alt="Mój organizer" class="logo">
+        </section>
     </header>
-
-    <section id="banner2" class="dwa">
-        <form method="POST" action="">
-            <label for="event">Wpis wydarzenia: </label>
-            <input type="text" id="event" name="event">
-            <button type="submit">ZAPISZ</button>
-        </form>
-    </section>
-
-    <section id="banner3">
-        <img src="./src/logo2.png" alt="Mój organizer" width="100" height="100">
-    </section>
-
     <main>
-        <div class="calendar">
-            <div class="day header">Pon</div>
-            <div class="day header">Wt</div>
-            <div class="day header">Śr</div>
-            <div class="day header">Czw</div>
-            <div class="day header">Pt</div>
-            <div class="day header">Sob</div>
-            <div class="day header">Ndz</div>
-            <!-- Empty days for the first week -->
-            <div class="day empty"></div>
-            <div class="day empty"></div>
-            <div class="day empty"></div>
-            <div class="day empty"></div>
-            <div class="day empty"></div>
-            <div class="day">1</div>
-            <div class="day">2</div>
-            <!-- Days of the month -->
-            <div class="day">3</div>
-            <div class="day">4</div>
-            <div class="day">5</div>
-            <div class="day">6</div>
-            <div class="day">7</div>
-            <div class="day">8</div>
-            <div class="day">9</div>
-            <div class="day">10</div>
-            <div class="day">11</div>
-            <div class="day">12</div>
-            <div class="day">13</div>
-            <div class="day">14</div>
-            <div class="day">15</div>
-            <div class="day">16</div>
-            <div class="day">17</div>
-            <div class="day">18</div>
-            <div class="day">19</div>
-            <div class="day">20</div>
-            <div class="day">21</div>
-            <div class="day">22</div>
-            <div class="day">23</div>
-            <div class="day">24</div>
-            <div class="day">25</div>
-            <div class="day">26</div>
-            <div class="day">27</div>
-            <div class="day">28</div>
-            <div class="day">29</div>
-            <div class="day">30</div>
-        </div>
+        <section class="day-block">1</section>
+        <section class="day-block">2</section>
+        <section class="day-block">3</section>
+        <section class="day-block">4</section>
+        <section class="day-block">5</section>
+        <section class="day-block">6</section>
+        <section class="day-block">7</section>
+        <section class="day-block">8</section>
+        <section class="day-block">9</section>
+        <section class="day-block">10</section>
+        <section class="day-block">11</section>
+        <section class="day-block">12</section>
+        <section class="day-block">13</section>
+        <section class="day-block">14</section>
+        <section class="day-block">15</section>
+        <section class="day-block">16</section>
+        <section class="day-block">17</section>
+        <section class="day-block">18</section>
+        <section class="day-block">19</section>
+        <section class="day-block">20</section>
+        <section class="day-block">21</section>
+        <section class="day-block">22</section>
+        <section class="day-block">23</section>
+        <section class="day-block">24</section>
+        <section class="day-block">25</section>
+        <section class="day-block">26</section>
+        <section class="day-block">27</section>
+        <section class="day-block">28</section>
+        <section class="day-block">29</section>
+        <section class="day-block">30</section>
+        <section class="day-block">31</section>
     </main>
-
-    <footer class="dwa">
-        <p>Miesiąc: Listopad, Rok: 2024</p>
-        <p>&ThickSpace;</p>
-        <p>Stronę wykonał: 00000000000</p>
+    <footer>
+        <!-- Efekt działania skryptu 2 -->
+        <p>Stronę wykonał: [PESEL]</p>
     </footer>
-
 </body>
-
 </html>
