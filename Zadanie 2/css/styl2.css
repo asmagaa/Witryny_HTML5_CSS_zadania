@@ -6,7 +6,7 @@
 
 body {
     background-color: #333;
-    font-family: 'Garamond', sans-serif;
+    font-family: 'Garamond', serif;
 }
 
 .endings {
@@ -17,13 +17,12 @@ body {
 	text-align: center;
 }
 
-.top {
-	height: 20%;
-}
-
-.footer {
-	height: 10%;
-	clear: both;
+.top, .footer {
+    background-color: #3CB371;
+    color: white;
+    padding: 10px;
+    font-size: 130%;
+    text-align: center;
 }
 
 .sides {
@@ -33,18 +32,22 @@ body {
 }
 
 .left {
-	width: 40%;
+    background-color: #FAEBD7;
+	width: 55%;
+    height: 450px;
 	float: left;
 }
 
 .right {
-	width: 60%;
+    background-color: #FAEBD7;
+	width: 45%;
+    height: 450px;
 	float: left;
 }
 
 img {
-	padding: 5px;
-	margin: 10px;
-	border: 1px solid #000080;
+	padding: 3px;
+	margin: 15px;
+	border: 2px dashed #3CB371;
     width: 550px;
 }

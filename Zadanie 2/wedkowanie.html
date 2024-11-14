@@ -9,47 +9,44 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./styl2.css">
+    <link rel="stylesheet" href="./css/styl2.css">
     <title>Klub wędkowania</title>
 </head>
 
 <body>
 
-    <div class="top endings">
-        <h1>Portal dla wędkarzy</h1>
-    </div>
+    <section class="top endings">
+        <h2>Wędkuj z nami!</h2>
+    </section>
 
-    <div class="left sides">
-        <h2>Ryby spokojnego </h2>
-        <ul id="fish-list">
-            <!-- karp -->
-        </ul>
-    </div>
+    <section class="left sides">
+        <img src="./src/ryba2.png" alt="Szczupak">
+    </section>
 
-    <div class="right sides">
-        <img src="./src/ryba2.png" alt="Rybson">
-        <a href="https://wedkarz.pzw.pl/">Odwiedź Polski Związek Wędkarski (PZW)</a>
-    </div>
+    <section class="right sides">
+        <h3>Ryby spokojnego żeru (białe)</h3>
+        <ol>
+            <li><a href="https://wedkuje.pl/" target="_blank">Odwiedź także</a></li>
+            <li><a href="http://www.pzw.org.pl/" target="_blank">Polski Związek Wędkarski</a></li>
+        </ol>
+    </section>
 
-    <div class="footer endings">
+    <section class="footer endings">
         <p>Stronę wykonał: 00000000000</p>
-    </div>
-
+    </section>
 
     <script>
         const fishList = [
-            "Szczupak, występowanie: stawy, rzeki",
-            "Sandacz, występowanie: stawy, jeziora, rzeki",
-            "Okoń, występowanie: rzeki",
-            "Sum, występowanie: jeziora, rzeki",
-            "Dorsz, występowanie: morza, oceany"
+            "2. Karp, występuje w: stawy, jeziora",
+            "7. Leszcz, występowanie: jeziora",
+            "8. Lin, występuje w: jeziora",
         ];
 
-        const ul = document.getElementById('fish-list');
+        const ol = document.querySelector('.right ol');
         fishList.forEach(fish => {
             const li = document.createElement('li');
             li.textContent = fish;
-            ul.appendChild(li);
+            ol.appendChild(li);
         });
     </script>
 </body>

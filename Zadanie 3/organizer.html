@@ -1,0 +1,107 @@
+<!--
+Cechy witryny:
+‒ Składa się ze strony o nazwie organizer.php
+‒ Zastosowany właściwy standard kodowania polskich znaków
+‒ Tytuł strony widoczny na karcie przeglądarki: „Organizer”
+‒ Arkusz stylów w pliku o nazwie styl6.css prawidłowo połączony z kodem strony
+‒ Podział strony na bloki: trzy bloki banera, poniżej blok główny, w którym znajdują się bloki
+wyświetlające dane kolejnych dni, na dole blok stopki. Podział zrealizowany za pomocą znaczników
+sekcji tak, aby po uruchomieniu w przeglądarce wygląd układu bloków był zgodny z Obrazem 2
+‒ Zawartość pierwszego bloku banera: nagłówek drugiego stopnia o treści „MÓJ ORGANIZER”
+‒ Zawartość drugiego bloku banera: formularz wysyłający dane metodą POST do tej samej strony,
+zawierający:
+‒ Pole edycyjne podpisane: „Wpis wydarzenia: ”
+‒ Przycisk wysyłający zawartość formularza z etykietą „ZAPISZ”
+‒ Zawartość trzeciego bloku banera: logo2.png z tekstem alternatywnym o treści: „Mój organizer”
+‒ Zawartość bloku głównego: efekt działania skryptu 1
+‒ Zawartość stopki:
+‒ Efekt działania skryptu 2
+‒ Paragraf (akapit) o treści: „Stronę wykonał: ”, dalej wstawiony numer PESEL zdającego
+-->
+
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styl6.css">
+    <title>Organizer</title>
+</head>
+
+<body>
+    <header class="dwa">
+        <h2>MÓJ ORGANIZER</h2>
+        <div class="input"></div>
+    </header>
+
+    <section id="banner2" class="dwa">
+        <form method="POST" action="">
+            <label for="event">Wpis wydarzenia: </label>
+            <input type="text" id="event" name="event">
+            <button type="submit">ZAPISZ</button>
+        </form>
+    </section>
+
+    <section id="banner3">
+        <img src="./src/logo2.png" alt="Mój organizer" width="100" height="100">
+    </section>
+
+    <main>
+        <div class="calendar">
+            <div class="day header">Pon</div>
+            <div class="day header">Wt</div>
+            <div class="day header">Śr</div>
+            <div class="day header">Czw</div>
+            <div class="day header">Pt</div>
+            <div class="day header">Sob</div>
+            <div class="day header">Ndz</div>
+            <!-- Empty days for the first week -->
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <!-- Days of the month -->
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+        </div>
+    </main>
+
+    <footer class="dwa">
+        <p>Miesiąc: Listopad, Rok: 2024</p>
+        <p>&ThickSpace;</p>
+        <p>Stronę wykonał: 00000000000</p>
+    </footer>
+
+</body>
+
+</html>
